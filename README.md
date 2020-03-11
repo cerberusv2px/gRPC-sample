@@ -1,6 +1,6 @@
 # gRPC Sample
 
-Demo project for testing gRPC server and client applications.
+Demo project for testing gRPC server and client applications. Currently used for data exchange only with a Simple RPC layer.
 
 Sample reference and setups:
 https://grpc.io/docs/tutorials/basic/python/
