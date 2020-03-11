@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message Outlet {
+    int32 id = 1;
+    string name = 2;
+    float latitude = 3;
+    float longitude = 4;
+}
+
+message RouteRequest {
+       int32 num_dse = 1;
+       int32 max_distance = 2;
+       int32 max_outlet = 3;
+       repeated int32 start_locations = 4;
+       repeated int32 end_locations = 5;
+       repeated Outlet outlets = 6;
+}
+
+message RouteResponse {
+    repeated Outlet outlets = 1;
+}
+
+service RouteGenerator {
+    rpc Generate(RouteRequest) returns (RouteResponse);
+}
