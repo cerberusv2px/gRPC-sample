@@ -1,4 +1,4 @@
-#gRPC Sample
+# gRPC Sample
 
 Demo project for testing gRPC server and client applications.
 
