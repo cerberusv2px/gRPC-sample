@@ -6,7 +6,7 @@ Sample reference and setups:
 https://grpc.io/docs/tutorials/basic/python/
 
 ## Installation
-`pip install -R requirements.txt`
+`pip install -r requirements.txt`
 
 ## Ususage
 Execute `python route_generator_server.py` in one terminal.
